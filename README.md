@@ -1,2 +1,3 @@
 # ledgr-journal
-Landing page and privacy policy for Ledgr-Journal iS app
+
+Landing page and privacy policy for Ledgr-Journal iOS app
