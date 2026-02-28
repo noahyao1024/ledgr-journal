@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="./favicon.png" />
     <link rel="apple-touch-icon" href="./favicon.png" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
   </head>
   <body>
     <main class="container">
@@ -53,6 +54,15 @@
           For support or privacy requests, contact:
           <a href="mailto:support@noahyao.me">support@noahyao.me</a>
         </p>
+      </section>
+
+      <section class="card">
+        <h2>Support the App</h2>
+        <stripe-buy-button
+          buy-button-id="buy_btn_1T5q3bJPeX3JWZPY1byhEKR7"
+          publishable-key="pk_live_51RKiCQJPeX3JWZPYUAXyuTEwn1El5sAwBYVTEpux5MhFOMAmzrPpYXBmWV4VtJgASJoNeOaZi9qS5klThMxN8gxR00ezEXsvAI"
+        >
+        </stripe-buy-button>
       </section>
 
       <footer>
