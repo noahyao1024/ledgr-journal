@@ -23,7 +23,7 @@
       </header>
 
       <section class="card hero">
-        <p><strong>Effective date:</strong> February 27, 2026</p>
+        <p><strong>Effective date:</strong> March 7, 2026</p>
         <p>
           Ledgr-Journal ("we", "our", "us") provides a personal finance tracking application.
           This Privacy Policy explains what information we process and how we use it.
@@ -52,10 +52,24 @@
       <section class="card">
         <h2>Google User Data</h2>
         <p>
-          If you connect Google Sheets, we use Google API scopes strictly to list spreadsheets and
-          read/write transaction rows in the spreadsheet you choose.
+          If you connect Google Sheets, we request only the <code>drive.file</code> scope, which
+          limits access to spreadsheets created by or explicitly selected for use with Ledgr.
+          We use this access strictly to read and write transaction rows in your chosen spreadsheet.
         </p>
         <p>We do not sell Google user data and we do not use it for advertising.</p>
+      </section>
+
+      <section class="card">
+        <h2>Data Protection</h2>
+        <p>
+          We take the following measures to protect your data, including any data obtained from Google APIs:
+        </p>
+        <ul>
+          <li>All communication with Google APIs is transmitted over HTTPS/TLS encryption.</li>
+          <li>OAuth tokens (access and refresh tokens) are stored locally on your device only and are never transmitted to any third-party server.</li>
+          <li>No Google user data is collected, stored, or processed on any external server. The app communicates directly between your device and Google's APIs.</li>
+          <li>The app requests only the minimum scope necessary (<code>drive.file</code>) to limit access to spreadsheets you explicitly create or select.</li>
+        </ul>
       </section>
 
       <section class="card">
@@ -63,6 +77,31 @@
         <p>
           Your transaction data is stored locally on your device. If you enable Google Sheets sync,
           relevant transaction data is also written to your selected spreadsheet.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Data Retention &amp; Deletion</h2>
+        <p>
+          Google user data (OAuth access and refresh tokens) is retained on your device only for as
+          long as you remain signed in to Google within the app. This data is automatically and
+          permanently deleted when you:
+        </p>
+        <ul>
+          <li>Sign out of Google in the app's Settings screen.</li>
+          <li>Delete the Ledgr app from your device.</li>
+        </ul>
+        <p>
+          No Google user data is retained on any server. Once tokens are removed from your device,
+          no copy exists anywhere.
+        </p>
+        <p>
+          You may also revoke Ledgr's access to your Google account at any time by visiting
+          <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account Permissions</a>.
+        </p>
+        <p>
+          To request deletion of any other data, contact us at
+          <a href="mailto:support@noahyao.me">support@noahyao.me</a>.
         </p>
       </section>
 
